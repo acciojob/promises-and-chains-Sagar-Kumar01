@@ -22,7 +22,7 @@ btn.addEventListener("click", (e) => {
 	e.preventDefault();  
 
 	if (age.value === "" || name.value === "") {
-		alert("Please enter valid details.");
+		alert("Please enter valid details");
 	} else {
 		message(age.value, name.value)
 			.then(() => {
